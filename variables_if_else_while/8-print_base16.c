@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int n = 97;
+	int x = 97;
 	int l = 'a';
 
-	while (n <= 57)
+	while (x <= 57)
 	{
-		putchar(n);
-		n += 1;
+		putchar(x);
+		x += 1;
 	}
 	while (l <= 'f')
 	{
