@@ -1,9 +1,10 @@
 #include "_putchar"
 
 /**
- * main - program that prints _putchar, followed by a new line
+ * main - program that prints _putchar
  * 
  * Return: 0
+ *
  */
 
 int main(void)
