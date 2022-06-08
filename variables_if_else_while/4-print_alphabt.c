@@ -3,6 +3,7 @@
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
  * You can only use putchar
+ * Return: 0
  */
 
 int main(void)
