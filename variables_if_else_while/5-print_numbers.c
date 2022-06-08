@@ -2,6 +2,7 @@
 
 /**
  * main - program that prints all single digit numbers of base 10, w/ '\n'
+ * All your code should be in the main function
  * Return: 0
  */
 
@@ -14,6 +15,6 @@ int main(void)
 		printf("%d", n);
 		n += 1;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
