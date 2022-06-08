@@ -2,7 +2,6 @@
 
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
- * Print all letters except q and e
  * You can only use putchar
  */
 
