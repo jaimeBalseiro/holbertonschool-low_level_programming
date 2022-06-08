@@ -17,7 +17,7 @@ int main(void)
 		{
 			putchar(x + 48);
 		}
-		else 
+		else
 		{
 			y = 97 + x % 10;
 			putchar(y);
