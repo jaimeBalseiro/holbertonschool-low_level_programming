@@ -5,7 +5,7 @@
  * You can only use putchar
  */
 
-int main(void)
+int main
 {
 	int lw = 'a';
 
