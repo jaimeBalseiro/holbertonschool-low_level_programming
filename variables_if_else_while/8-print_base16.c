@@ -8,18 +8,20 @@
 
 int main(void)
 {
-	int x = 97;
-	int l = 'a';
+	int x;
+	char y;
 
-	while (x <= 57)
+	for (x = 0; x < 16; x++)
 	{
-		putchar(x);
-		x += 1;
-	}
-	while (l <= 'f')
-	{
-		putchar(l);
-		l++;
+		if (x < 10)
+		{
+			putchar(x + 48);
+		}
+		else 
+		{
+			y = 97 + x % 10;
+			putchar(y);
+		}
 	}
 	putchar('\n');
 	return (0);
