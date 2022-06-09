@@ -8,17 +8,18 @@
 
 void print_alphabet_x10(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-	int counter;
-	int x;
+	int l;
+	int n = 0;
 
-	while (x < 10)
+	while (n < 10)
 	{
-		for (counter = 0; counter < 26; counter++)
+		l = 'a';
+		while (l <= 'z')
 		{
-			_putchar(alphabet[counter]);
+			_putchar(l);
+			l += 1;
 		}
-		_putchar('\n');
-		x++;
+		_putchar(10);
+		n += 1;
 	}
 }
