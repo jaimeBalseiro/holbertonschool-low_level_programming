@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "_putchar.c"
 
 /**
  * main - program that prints _putchar
