@@ -3,9 +3,8 @@
 /**
  * _islower - function that checks for lowercase character
  * @c: The imput character to check
- * Return - int.
+ * Return: 1 if @c is lowercase, 0 if otherwise
  */
-
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
