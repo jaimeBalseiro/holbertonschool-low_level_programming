@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 
 	while (x < 10)
 	{
-		for (counter = 0; counter < 26; x++)
+		for (counter = 0; counter < 26; counter++)
 
 		{
 			_putchar(alphabet[counter]);
