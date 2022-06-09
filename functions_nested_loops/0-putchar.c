@@ -1,4 +1,4 @@
-#include "_putchar"
+#include <_putchar>
 
 /**
  * main - program that prints _putchar
@@ -9,14 +9,14 @@
 
 int main(void)
 {
-	int n = 0;
-	char str_ptc[8] = "_putchar";
-
-	while (n < 9)
-	{
-		_putchar(str_ptc[n]);
-		n += 1;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
