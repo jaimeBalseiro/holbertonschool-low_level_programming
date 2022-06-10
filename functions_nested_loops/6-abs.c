@@ -3,9 +3,9 @@
 /**
  * _abs - function that computes absolute value of an integer
  * @x: the number
- * Return: abs
+ * Return: int.
  */
-int _abs(int x)
+int _abs(int)
 {
 	if (x < 0)
 	{
