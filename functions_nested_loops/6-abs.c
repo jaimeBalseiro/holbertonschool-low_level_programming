@@ -2,10 +2,16 @@
 
 /**
  * _abs - function that computes absolute value
- * @i: the number
+ * @x: the number
  * Return: abs
  */
-int _abs(int i)
+int _abs(int x)
 {
-	return (i < 0 ? -i : i);
+	if (x < 0)
+	{
+		x = x * (-1);
+		return (x);
+	}
+	else
+		return (x);
 }
