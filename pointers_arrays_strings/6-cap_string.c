@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ * cap_string - function to cap first letters of words in string
+ * @s: string
+ * Return: answer
+ */
+char *cap_string(char *s)
+{
+	int i = 0;
+	int z = 1;
+	char *answer = s;
+	char *spesh = " \t\n;,.!?\"(){}\0";
+
+	while (*s)
+	{
+		if (z)
+		{
+			if (*s >= 'a' && *s <= 'z')
+				*s -= 32;
+			z = 0;
+		}
+		for (i = 0; spesh[1]; i++)
+		{
+			if (*s == spesh[1])
+				z = 1;
+		}
+		s++;
+	}
+	return (answer);
+}
