@@ -20,9 +20,9 @@ char *cap_string(char *s)
 				*s -= 32;
 			z = 0;
 		}
-		for (i = 0; spesh[1]; i++)
+		for (i = 0; spesh[i]; i++)
 		{
-			if (*s == spesh[1])
+			if (*s == spesh[i])
 				z = 1;
 		}
 		s++;
