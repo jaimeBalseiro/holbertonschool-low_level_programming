@@ -27,7 +27,7 @@ int SqrtNum(int num, int i)
 	if (num == (i * i))
 		return (i);
 	else if (num > (i * i))
-		return (SqrtNum(num, i + i));
+		return (SqrtNum(num, i + 1));
 	else
 		return (-1);
 }
