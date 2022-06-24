@@ -9,7 +9,7 @@
  * @argv: the names of args
  * Return: 0 or 1
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int i;
 	int j;
