@@ -30,9 +30,9 @@ int _strlen(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *new;
+	int total = 0;
 	int i;
 	int j = 0;
-	int total = 0;
 
 	if (!s1)
 		s1 = "";
