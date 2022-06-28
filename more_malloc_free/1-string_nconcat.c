@@ -21,7 +21,7 @@ int _strlen(char *s)
 	return (counter);
 }
 /**
- * string_nconcat - concats 2 strings
+ * string_nconcat - concats two strings
  * @s1: first string
  * @s2: second string
  * @n: how much of s2 to add
