@@ -25,7 +25,7 @@ int _strlen(char *s)
  * @s1: first string
  * @s2: second string
  * @n: how much of s2 to add
- * Return: pointer to new string
+ * Return: ptr to new string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
