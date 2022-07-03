@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * op_add - adds 
+ * op_add - adds
  * @a: first int
  * @b: the other int
  * Return: int
